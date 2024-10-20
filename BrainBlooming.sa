@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple GitHub Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple GitHub Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m a web developer learning to build websites using HTML, CSS, and JavaScript. This is my simple GitHub Pages site.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of my projects:</p>
+        <ul>
+            <li><strong>Project 1:</strong> A simple website using HTML and CSS.</li>
+            <li><strong>Project 2:</strong> A JavaScript game.</li>
+            <li><strong>Project 3:</strong> A responsive web application.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to reach out, feel free to email me at: <a href="mailto:someone@example.com">someone@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Simple GitHub Page</p>
+    </footer>
+</body>
+</html>
